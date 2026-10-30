@@ -1,0 +1,8 @@
+outputs/
+data/*
+!data/analysis_ready_prescriptions.csv
+.Rhistory
+.RData
+Rplots.pdf
+.DS_Store
+*.Rproj.user/
