@@ -19,9 +19,29 @@ The scripts run in order:
 5. `5_figures.R` draws Figures 1–3 and Supplementary Figure S1.
 6. `6_supplementary_tables.R` writes Supplementary Tables S1–S6.
 
-Outputs go to `outputs/tables/` and `outputs/figures/`. The four figures are written as editable vector PDFs and 300 dpi PNGs. Generated outputs are ignored by Git; running the code recreates them.
+Outputs go to `outputs/tables/` and `outputs/figures/`. The four figures are written as editable vector PDFs and 300 dpi PNGs. Generated outputs are ignored by Git; running the code recreates them. Copies of the figures are kept in `figures/` for the previews below.
 
 Install these R packages before running: tidyverse, lubridate, sandwich, lmtest, tseries, MASS, gridExtra, sf, ggrepel, and scales. The scripts stop with a package list if anything is missing. They do not install packages or download data.
+
+## Figures
+
+Click a preview to open its vector PDF.
+
+### Figure 1. Monthly recorded methadone volume by formulation
+
+[![Monthly methadone volume by formulation from 2018 to August 2025](figures/Figure_1.png)](figures/Figure_1.pdf)
+
+### Figure 2. Annual recorded volume and state share
+
+[![Annual methadone volume and share by state](figures/Figure_2.png)](figures/Figure_2.pdf)
+
+### Figure 3. Population scenarios and CIJ patient counts
+
+[![Estimated people supported by recorded volume and observed CIJ patient counts](figures/Figure_3.png)](figures/Figure_3.pdf)
+
+### Supplementary Figure S1. Methadone site locations
+
+[![Map of locality-level private and public methadone site counts in Mexico](figures/Supplementary_Figure_S1.png)](figures/Supplementary_Figure_S1.pdf)
 
 ## Release input
 
